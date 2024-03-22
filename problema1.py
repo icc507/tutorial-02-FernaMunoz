@@ -9,11 +9,8 @@
 #		  mundo 44
 #La salida debe ser
 #         ('mundo', 44, 20, 90, 'hola', 'mundo', 44)
-t = input("Ingrese la primera tupla:")
-m = input("Ingrese la segunda tupla:")
-
-t1 = t.split()
-t2 = m.split()
+t1 = input("Ingrese la primera tupla:").split()
+t2 = input("Ingrese la segunda tupla:").split()
 
 orden_tupla = tuple(t2 + t1 + t2)
 print(orden_tupla)
